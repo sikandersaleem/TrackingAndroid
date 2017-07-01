@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/devices"
+            android:icon="@drawable/devicelisticon"
+            android:title="Devices" />
+
+        <item
+            android:id="@+id/geofence"
+            android:icon="@drawable/geofence"
+            android:title="Geofences" />
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/devicesicon"
+            android:title="Reports" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notificationicon"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Contact us" />
+
+    </group>
+    <group android:id="@+id/nav_footer">
+        <item
+            android:id="@+id/singout"
+            android:icon="@drawable/signouticon"
+            android:title="Sign out" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit" />
+    </group>
+
+</menu>

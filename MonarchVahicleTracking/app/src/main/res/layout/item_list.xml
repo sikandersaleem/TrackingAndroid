@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="60dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/border"
+    android:padding="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/exiticon" />
+    <TextView
+        android:id="@+id/car_num"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="0.64"
+        android:text="Car Number"
+        android:textSize="24sp" />
+
+</LinearLayout>

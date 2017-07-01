@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context="com.monarch.monarchvahicletracking.geofenceadd">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mapgeofence"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        tools:context="com.example.mapwithmarker.MapsMarkerActivity">
+
+        <Button
+            android:id="@+id/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:text="Change Radius"
+            android:padding="10dp"
+            android:textColor="#474747"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/creategeo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="90"
+            android:layout_gravity="center|bottom"
+            android:background="#a9a9a9"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_weight="75">
+
+                <EditText
+                    android:id="@+id/geofencename"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:hint="Name"
+                    android:textColor="#000000"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/savegeo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:layout_gravity="right"
+                android:text="Create" />
+
+        </LinearLayout>
+    </fragment>
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880682383759",
+    "firebase_url": "https://monarchvahicletracking.firebaseio.com",
+    "project_id": "monarchvahicletracking",
+    "storage_bucket": "monarchvahicletracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880682383759:android:e05c0fb9d9b2474f",
+        "android_client_info": {
+          "package_name": "com.monarch.monarchvahicletracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880682383759-sfgtarqh2klpmhgu1ophdnklgb92ogh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monarch.monarchvahicletracking",
+            "certificate_hash": "29b18ac434d4b0b77acef18346593ffb68edc38a"
+          }
+        },
+        {
+          "client_id": "880682383759-jbov61eh1314k8gphpe38cdf6q4dpouf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKHeujhOxCaE2h-cnxM1ZBip9mQoHmAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880682383759-jbov61eh1314k8gphpe38cdf6q4dpouf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

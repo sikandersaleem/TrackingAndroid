@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/startgeo"
+        android:orderInCategory="100"
+        android:title="Add Circle Geofence"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/startpolygon"
+        android:orderInCategory="100"
+        android:title="Add Polygon Geofence"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/startpoly"
+        android:orderInCategory="100"
+        android:title="Add Polyline Geofence"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:title="Clear"
+        app:showAsAction="never" />
+</menu>
